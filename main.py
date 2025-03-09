@@ -4,11 +4,11 @@ class Array:
         self.array = args
 
     def sum(self) -> float:
-        summa = 1
-        
+        summa = 0
+
         for i in self.array:
             summa += i
-        
+
         return summa
     
     def multiply(self) -> float:
