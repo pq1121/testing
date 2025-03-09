@@ -12,7 +12,7 @@ class Array:
         return summa
     
     def multiply(self) -> float:
-        multiply = 0
+        multiply = 1
         
         for i in self.array:
             multiply *= i

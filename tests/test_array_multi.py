@@ -7,7 +7,7 @@ import pytest
                             (1, 2, 3, 6),
                             (1.2, 2, 3.8, 9.12),
                             (-1, -2, -3, -6),
-                            (1, -2, -3, -6)
+                            (1, -2, -3, 6)
                          ])
 def test_array_multi_positive(a, b, c, expected):
     lst = Array(a, b, c)
